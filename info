@@ -1,0 +1,305 @@
+{
+  "uuid": "303fa4820a7b99cdbb28e43c7e13d4ed",
+  "path": "Offline/ESP32_LRThermostat_Relay_Driver_Board",
+  "name": "ESP32_LRThermostat_Relay_Driver_Board",
+  "content": "ESP32 processor using a ULN2003 relay driver IC.",
+  "created_at": "2022-02-11 11:32:56",
+  "updated_at": "2022-03-01 06:43:00",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "74504bffd85cdfc7828c811c31e42ea3",
+      "title": "LRThermostat_Board_Bridge_Recifier",
+      "description": "",
+      "docType": "1",
+      "master": "82be8fa49635e099aefaa12252cb7303",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3843257f49f042f1b4733cd166dc9913": 1,
+        "85b25717522e46a0ba84b9f68d12bc5c": 1,
+        "c5bf6e71b9b142bbbc2fd54321939a52": 1,
+        "4fdf3bcbac0345cb87bb620bfc171f9d": 1,
+        "bb009484ef804a24ac5d18c54b249586": 3,
+        "5c1036b53a4146e4841df4ed0a9de8f0": 4,
+        "e545f26e87c74952857381bd0bff848e": 3,
+        "a3753e38396e445e92fce664997c9de8": 3,
+        "9d78264e6261491bb3f59c5f769492c6": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          1,
+          "CASE-A_3216",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "330 uF",
+          2,
+          "CASE-A_3216",
+          "C2,C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "BRIDGE- DB107 4 Pin DIP",
+          1,
+          "",
+          "D1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "",
+            "uuid": "9d78264e6261491bb3f59c5f769492c6"
+          }
+        ],
+        [
+          "RELAY 2 (HEAT)",
+          1,
+          "RELAY-TH_RJ-SS-XXXXMX",
+          "K1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C358580",
+            "BOM_Manufacturer": "Wangrong",
+            "BOM_Manufacturer Part": "RJ-SS-112DM1-S",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cb4ae450591c46de870129edf6ac7f31",
+            "uuid": "a3753e38396e445e92fce664997c9de8"
+          }
+        ],
+        [
+          "RELAY 3 (COOL)",
+          1,
+          "RELAY-TH_RJ-SS-XXXXMX",
+          "K2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C358580",
+            "BOM_Manufacturer": "Wangrong",
+            "BOM_Manufacturer Part": "RJ-SS-112DM1-S",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cb4ae450591c46de870129edf6ac7f31",
+            "uuid": "a3753e38396e445e92fce664997c9de8"
+          }
+        ],
+        [
+          "RELAY 1 (FAN)",
+          1,
+          "RELAY-TH_RJ-SS-XXXXMX",
+          "K4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C358580",
+            "BOM_Manufacturer": "Wangrong",
+            "BOM_Manufacturer Part": "RJ-SS-112DM1-S",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "cb4ae450591c46de870129edf6ac7f31",
+            "uuid": "a3753e38396e445e92fce664997c9de8"
+          }
+        ],
+        [
+          "SWITCH_4 (RESET)",
+          1,
+          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
+          "KEY1",
+          {
+            "BOM_Supplier Part": "C118141",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "K2-1107ST-A4SW-06",
+            "puuid": "daacbe2eec304950b61eef2efe596556",
+            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
+          }
+        ],
+        [
+          "SWITCH_3 (DOWN)",
+          1,
+          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
+          "KEY4",
+          {
+            "BOM_Supplier Part": "C118141",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "K2-1107ST-A4SW-06",
+            "puuid": "daacbe2eec304950b61eef2efe596556",
+            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
+          }
+        ],
+        [
+          "SWITCH_1 (ENTER)",
+          1,
+          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
+          "KEY5",
+          {
+            "BOM_Supplier Part": "C118141",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "K2-1107ST-A4SW-06",
+            "puuid": "daacbe2eec304950b61eef2efe596556",
+            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
+          }
+        ],
+        [
+          "SWITCH_2 (UP)",
+          1,
+          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
+          "KEY6",
+          {
+            "BOM_Supplier Part": "C118141",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "K2-1107ST-A4SW-06",
+            "puuid": "daacbe2eec304950b61eef2efe596556",
+            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
+          }
+        ],
+        [
+          "R2 - 10k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "R2 - 10K",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "ULN2003LVDR",
+          1,
+          "SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C72751",
+            "BOM_Manufacturer": "Texas Instruments",
+            "BOM_Manufacturer Part": "ULN2003LVDR",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5cafa9ae5a9e4b2ab529c9f08b47eb94",
+            "uuid": "3843257f49f042f1b4733cd166dc9913"
+          }
+        ],
+        [
+          "ESP32S Devkit",
+          1,
+          "ESP-WROOM-32 DEV KIT",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "New SchematicLib",
+            "puuid": "a6c0dad24b2f47cd8867f39ac4dbe3c9",
+            "uuid": "85b25717522e46a0ba84b9f68d12bc5c"
+          }
+        ],
+        [
+          "ST7735",
+          1,
+          "ST7735",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "93ed2d32ea574b3fa14800f0708b0e57",
+            "uuid": "c5bf6e71b9b142bbbc2fd54321939a52"
+          }
+        ],
+        [
+          "BME280",
+          1,
+          "BME280",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "4a19b20c0d164685a670d324affa0792",
+            "uuid": "4fdf3bcbac0345cb87bb620bfc171f9d"
+          }
+        ]
+      ],
+      "updateTime": 1646138580,
+      "createTime": 1644600777,
+      "histories": [],
+      "created_at": "2022-02-11 11:32:57",
+      "updated_at": "2022-03-01 06:43:00"
+    },
+    {
+      "uuid": "1cf4dfc3a2288a128502291fafceccb1",
+      "puuid": "303fa4820a7b99cdbb28e43c7e13d4ed",
+      "title": "LERThermostat_Board_Buck_Convertor",
+      "filename": "LERThermostat_Board_Buck_Convertor.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [],
+      "updateTime": 1644879795,
+      "createTime": 1644673544,
+      "histories": [],
+      "created_at": "2022-02-12 07:45:44",
+      "updated_at": "2022-02-14 17:03:15"
+    },
+    {
+      "uuid": "a53f4adbf71997b4070d412f8cbb2360",
+      "puuid": "303fa4820a7b99cdbb28e43c7e13d4ed",
+      "title": "LERThermostat_Board_Bridge_Rectifier",
+      "filename": "LERThermostat_Board_Bridge_Rectifier.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1646067481,
+      "createTime": 1645023195,
+      "histories": [],
+      "created_at": "2022-02-16 08:53:15",
+      "updated_at": "2022-02-28 10:58:01"
+    }
+  ],
+  "sort": [],
+  "title": "ESP32_LRThermostat_Relay_Driver_Board",
+  "foldername": "ESP32_LRThermostat_Relay_Driver_Board",
+  "schfilename": "ESP32_LRThermostat_Relay_Driver_Board.json",
+  "schfilemtime": 1646138581013
+}
