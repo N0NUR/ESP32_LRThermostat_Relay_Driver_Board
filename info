@@ -4,7 +4,7 @@
   "name": "ESP32_LRThermostat_Relay_Driver_Board",
   "content": "ESP32 processor using a ULN2003 relay driver IC.",
   "created_at": "2022-02-11 11:32:56",
-  "updated_at": "2022-03-01 10:16:21",
+  "updated_at": "2022-03-01 12:21:54",
   "stick": "",
   "documents": [
     {
@@ -47,10 +47,23 @@
           }
         ],
         [
-          "330 uF",
-          2,
+          "2200 uF",
+          1,
           "CASE-A_3216",
-          "C2,C3",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "330 uF",
+          1,
+          "CASE-A_3216",
+          "C3",
           {
             "BOM_Supplier Part": "",
             "BOM_Supplier": "",
@@ -248,11 +261,11 @@
           }
         ]
       ],
-      "updateTime": 1646138580,
+      "updateTime": 1646158863,
       "createTime": 1644600777,
       "histories": [],
       "created_at": "2022-02-11 11:32:57",
-      "updated_at": "2022-03-01 06:43:00"
+      "updated_at": "2022-03-01 12:21:03"
     },
     {
       "uuid": "1cf4dfc3a2288a128502291fafceccb1",
@@ -290,16 +303,16 @@
           "CustomPara"
         ]
       ],
-      "updateTime": 1646151381,
+      "updateTime": 1646158914,
       "createTime": 1645023195,
       "histories": [],
       "created_at": "2022-02-16 08:53:15",
-      "updated_at": "2022-03-01 10:16:21"
+      "updated_at": "2022-03-01 12:21:54"
     }
   ],
   "sort": [],
   "title": "ESP32_LRThermostat_Relay_Driver_Board",
   "foldername": "ESP32_LRThermostat_Relay_Driver_Board",
   "schfilename": "ESP32_LRThermostat_Relay_Driver_Board.json",
-  "schfilemtime": 1646138581013
+  "schfilemtime": 1646158863500
 }
