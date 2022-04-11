@@ -4,7 +4,7 @@
   "name": "ESP32_LRThermostat_Relay_Driver_Board",
   "content": "ESP32 processor using a ULN2003 relay driver IC.",
   "created_at": "2022-02-11 11:32:56",
-  "updated_at": "2022-03-02 18:57:11",
+  "updated_at": "2022-04-11 03:53:00",
   "stick": "",
   "documents": [
     {
@@ -85,10 +85,38 @@
           }
         ],
         [
-          "JUMPER",
-          3,
+          "JP1",
+          1,
           "HDR-F-2.54_1X2",
-          "H1,H2,H3",
+          "H1",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "JP2",
+          1,
+          "HDR-F-2.54_1X2",
+          "H2",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "JP3",
+          1,
+          "HDR-F-2.54_1X2",
+          "H3",
           {
             "BOM_Supplier Part": "C49661",
             "BOM_Supplier": "LCSC",
@@ -276,28 +304,11 @@
           }
         ]
       ],
-      "updateTime": 1646222423,
+      "updateTime": 1647252170,
       "createTime": 1644600777,
       "histories": [],
       "created_at": "2022-02-11 11:32:57",
-      "updated_at": "2022-03-02 06:00:23"
-    },
-    {
-      "uuid": "1cf4dfc3a2288a128502291fafceccb1",
-      "puuid": "303fa4820a7b99cdbb28e43c7e13d4ed",
-      "title": "LERThermostat_Board_Buck_Convertor",
-      "filename": "LERThermostat_Board_Buck_Convertor.json",
-      "description": "",
-      "docType": "3",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {},
-      "BOM": [],
-      "updateTime": 1644879795,
-      "createTime": 1644673544,
-      "histories": [],
-      "created_at": "2022-02-12 07:45:44",
-      "updated_at": "2022-02-14 17:03:15"
+      "updated_at": "2022-03-14 05:02:50"
     },
     {
       "uuid": "a53f4adbf71997b4070d412f8cbb2360",
@@ -318,16 +329,16 @@
           "CustomPara"
         ]
       ],
-      "updateTime": 1646269031,
+      "updateTime": 1649509103,
       "createTime": 1645023195,
       "histories": [],
       "created_at": "2022-02-16 08:53:15",
-      "updated_at": "2022-03-02 18:57:11"
+      "updated_at": "2022-04-09 07:58:23"
     }
   ],
   "sort": [],
   "title": "ESP32_LRThermostat_Relay_Driver_Board",
   "foldername": "ESP32_LRThermostat_Relay_Driver_Board",
   "schfilename": "ESP32_LRThermostat_Relay_Driver_Board.json",
-  "schfilemtime": 1646222423754
+  "schfilemtime": 1647252170492
 }
